@@ -7,3 +7,4 @@ A simple Virus which will shutdown your computer when it boots to your desktop. 
 - This will cause the system to automatically shutdown after boot as the script gets activated after boot.
 
 # Shutdown Code
+At line number 13, a Batch script is there ``file.write. You can edit that as per your needs
