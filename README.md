@@ -14,6 +14,6 @@ You can edit that as per your needs. <br>
 
 # Removing the Virus
 1. This program just moves the Batch Script 'shutup.bat' to your STARTUP APPLICATIONS  Folder. So to remove that, you just need to go to the folder and remove it. You can Press ` Win + R ` Key and then write ` shell:startup ` to open the STARTUP APPLICATIONS and then delete the ` shutup.bat ` file.    <br>
-2. If you want to stop the script to run the Press ` Win + R ` and then write ` shutdown -a `. This will cancel the shutdown. <b> Write this after the script is activated. After that follow the `First Method`. </br>
+2. If you want to stop the script to run the Press ` Win + R ` and then write ` shutdown -a `. This will cancel the shutdown. <b> Write this after the script is activated.</b> After that follow the `First Method`. </br>
 3. Unfortunately if you can't do any of this because your computer shutdown so fast, then enter the `Windows Recovery Mode` and then open `Command Prompt`. After that navigate to your STARTUP APPLICATIONS folder, which is in ` C Drive `    
 
