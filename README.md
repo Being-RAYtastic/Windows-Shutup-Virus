@@ -11,3 +11,10 @@ At line number 13, a Batch Script is there `file.write("shutdown -s -t 20")` <br
 You can edit that as per your needs. <br>
 - You can put `-r` instead of `-s`. If you do so then the computer will just restart instead of shutting down.
 - You can change the integer after `-t`. It will decide after how many seconds the computer will shutdown. <b>This Integer Value is always taken in SECONDS. Don't write 2 if you want to do that after 2 MINUTES. For 2 minutes, you have to write `-t 120`</b>
+
+# Removing the Virus
+<ol>
+   <li> This program just moves the Batch Script 'shutup.bat' to your STARTUP APPLICATIONS  Folder. So to remove that, you just need to go to the folder and remove it. You can Press `Win + R` Key and then write `shell:startup` to open the STARTUP APPLICATIONS and then delete the `shutup.bat` file.</li>
+   <li> If you want to stop the script to run the Press `Win + R` and then write `shutdown -a`. This will cancel the shutdown. <b> Write this after the script is activated. After that follow the `First Method`</li>
+    <li> Unfortunately if you can't do any of this because your computer shutdown so fast, then enter the `Windows Recovery Mode` and then open `Command Prompt`. After that navigate to your STARTUP APPLICATIONS folder, which is in `C Drive`
+</ol>
