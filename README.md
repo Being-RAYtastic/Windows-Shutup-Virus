@@ -18,11 +18,14 @@ You can edit that as per your needs. <br>
 
 # Windows Recovery Environment Solution
 Unfortunately if you can't do any of this because your computer shutdown so fast, then enter the `Windows Recovery Mode`. There are many ways in Windows RE, through which you can remove this.
-To enter Recovery Environment, Either `Press the Shutdown Button until the Device gets Shutdown, when Windows is booting`. Repeat this 3 or more times or if your computer boots to the Login Screen, then `Press SHIFT Key` & `Restart the computer` using the button at the bottom-right corner.    <br>
-
+To enter Recovery Environment, Either:
+- `Press the Shutdown Button until the Device gets Shutdown, when Windows is booting`. Repeat this 3 or more times.
+    or
+- If your computer boots to the Login Screen, then `Press SHIFT Key` & `Restart the computer` using the button at the bottom-right corner.
+    
 After entering Windows RE, Click on `TroubleShoot`. There are many options: -
 -  Tap on `Startup Settings` and Enter the `SAFE MODE` using the following give Fkey. After that go to STARTUP FOLDER and delete the `shutup.bat`.
-- Or simply you can use `Command Prompt` and navigate to STARTUP FOLDER location
+- Or simply you can use `Command Prompt` and navigate to STARTUP FOLDER location <br>
   ```
   C:
   cd Users\yourUserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
