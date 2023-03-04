@@ -1,5 +1,5 @@
 # Windows-Shutup-Virus
-A simple Virus which will shutdown your computer when it boots to your desktop. It is made using python with a litle help of Batch Script. It only works with Windows.
+A simple Virus which will shutdown your computer when it boots to your desktop. It is made using python with a little help of Batch Script. It only works with Windows.
 
 # Main Logic of the Script
 - First will create a 'batch' script or .bat file named 'shutup.bat' in which the 'shutdown code' will be written. 
